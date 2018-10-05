@@ -253,6 +253,16 @@ module.exports = {
     "prefer-immediate-return": true,
     "prefer-promise-shorthand": true,
     "use-primitive-type": true,
-    "use-type-alias": true
+    "use-type-alias": true,
+    'no-consecutive-blank-lines': true,
+    'trailing-comma': [
+      true,
+      {
+        multiline: 'always',
+        singleline: 'never',
+        esSpecCompliant: true,
+      },
+    ],
+    'object-literal-key-quotes': [true, 'as-needed'],
   },
 };
