@@ -10,7 +10,7 @@ npm install @3angletech/tslint --save-dev
 
 ## Usage
 
-This library contains linting rules for TypeScript and for Angular.
+This library contains linting rules for TypeScript, for Angular and for styling.
 
 To use the TypeScript rules you need to add in `tslint.json`
 
@@ -26,7 +26,8 @@ or if you want to use both
 {
   "extends": [
     "@3angletech/tslint/ts",
-    "@3angletech/tslint/angular"
+    "@3angletech/tslint/angular",
+    "@3angletech/tslint/styles"
   ]
 }
 
