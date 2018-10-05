@@ -1,6 +1,6 @@
 {
   "name": "@3angletech/tslint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TSLint rules enforced by 3angleTech",
   "main": "tslint.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/3angleTech/tslintConfig#readme",
   "dependencies": {
+    "codelyzer": "4.5.0",
     "tslint-microsoft-contrib": "5.2.1",
     "tslint-sonarts": "1.8.0"
   },
