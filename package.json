@@ -1,8 +1,12 @@
 {
   "name": "@3angletech/tslint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "TSLint rules enforced by 3angleTech",
-  "main": "tslint.js",
+  "main": "ts/index.js",
+  "directories": {
+    "angular": "angular",
+    "ts": "ts"
+  },
   "scripts": {
     "test": ""
   },
