@@ -1,0 +1,27 @@
+{
+  "name": "@3angletech/tslint",
+  "version": "1.0.1",
+  "description": "TSLint rules enforced by 3angleTech",
+  "main": "tslint.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3angleTech/tslintConfig.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3angleTech/tslintConfig/issues"
+  },
+  "homepage": "https://github.com/3angleTech/tslintConfig#readme",
+  "dependencies": {
+    "codelyzer": "4.5.0",
+    "tslint-microsoft-contrib": "5.2.1",
+    "tslint-sonarts": "1.8.0"
+  },
+  "devDependencies": {
+    "tslint": "5.11.0"
+  }
+}
