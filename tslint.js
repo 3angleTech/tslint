@@ -137,16 +137,6 @@ module.exports = {
       "check-separator",
       "check-type"
     ],
-    "no-output-on-prefix": true,
-    "use-input-property-decorator": true,
-    "use-output-property-decorator": true,
-    "use-host-property-decorator": true,
-    "no-input-rename": true,
-    "no-output-rename": true,
-    "use-life-cycle-interface": true,
-    "use-pipe-transform-interface": true,
-    "component-class-suffix": true,
-    "directive-class-suffix": true,
     /**
      * Rules from tslint-microsoft-contrib
      *
@@ -225,7 +215,7 @@ module.exports = {
     "no-useless-files": true,
     "number-literal-format": true,
     "prefer-object-spread": true,
-    "prefer-template": true,
+    "prefer-template": [true, "allow-single-concat"],
     "type-literal-delimiter": true,
     /**
      * Rules from tslint-sonarts
