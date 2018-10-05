@@ -1,6 +1,6 @@
 {
   "name": "@3angletech/tslint",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "TSLint rules enforced by 3angleTech",
   "main": "ts/index.js",
   "directories": {

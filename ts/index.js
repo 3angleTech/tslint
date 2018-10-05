@@ -203,7 +203,7 @@ module.exports = {
     "no-function-expression": true,
     "no-multiline-string": true,
     "no-typeof-undefined": true,
-    "no-unnecessary-field-initialization": true,
+    "no-unnecessary-field-initialization": false,
     "no-unnecessary-local-variable": true,
     "no-unsupported-browser-code": true,
     "underscore-consistent-invocation": true,
