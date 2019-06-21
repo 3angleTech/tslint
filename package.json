@@ -1,6 +1,6 @@
 {
   "name": "@3angletech/tslint",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "TSLint rules enforced by 3angleTech",
   "main": "ts/index.js",
   "directories": {
@@ -22,15 +22,15 @@
   },
   "homepage": "https://github.com/3angleTech/tslintConfig#readme",
   "dependencies": {
-    "codelyzer": "4.5.0",
-    "stylelint": "9.4.0",
-    "stylelint-config-recommended-scss": "3.2.0",
-    "stylelint-config-standard": "18.2.0",
-    "stylelint-order": "0.8.1",
-    "tslint-microsoft-contrib": "5.2.1",
-    "tslint-sonarts": "1.8.0"
+    "codelyzer": "^4.5.0 || ^5.0.0",
+    "stylelint": "^9.4.0 || ^10.1.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^0.8.1 || ^3.0.0",
+    "tslint-microsoft-contrib": "^5.2.1 || ^6.2.0",
+    "tslint-sonarts": "^1.8.0"
   },
   "devDependencies": {
-    "tslint": "5.11.0"
+    "tslint": "^5.11.0"
   }
 }
