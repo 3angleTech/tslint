@@ -8,19 +8,16 @@
     "ts": "ts",
     "styles": "styles"
   },
-  "scripts": {
-    "test": ""
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3angleTech/tslintConfig.git"
+    "url": "https://github.com/3angleTech/tslint.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/3angleTech/tslintConfig/issues"
+    "url": "https://github.com/3angleTech/tslint/issues"
   },
-  "homepage": "https://github.com/3angleTech/tslintConfig#readme",
+  "homepage": "https://github.com/3angleTech/tslint#readme",
   "dependencies": {
     "codelyzer": "^4.5.0 || ^5.0.0",
     "stylelint": "^9.4.0 || ^10.1.0",
