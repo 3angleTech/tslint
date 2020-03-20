@@ -1,23 +1,6 @@
 {
-  "name": "@3angletech/tslint",
-  "version": "1.0.8",
-  "description": "TSLint rules enforced by 3angleTech",
-  "main": "ts/index.js",
-  "directories": {
-    "angular": "angular",
-    "ts": "ts",
-    "styles": "styles"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/3angleTech/tslint.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/3angleTech/tslint/issues"
-  },
-  "homepage": "https://github.com/3angleTech/tslint#readme",
+  "name": "tslint-sources",
+  "private": true,
   "dependencies": {
     "codelyzer": "^5.2.1",
     "stylelint": "^13.2.1",
@@ -25,9 +8,16 @@
     "stylelint-config-standard": "^20.0.0",
     "tslint": "^5.20.1",
     "tslint-microsoft-contrib": "^6.2.0",
-    "tslint-sonarts": "^1.9.0"
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.7.5"
   },
   "devDependencies": {
-    "typescript": "^3.7.5"
+    "@types/node": "^12.12.30",
+    "@types/fs-extra": "^8.1.0",
+    "fs-extra": "^8.1.0",
+    "ts-node": "^8.7.0"
+  },
+  "scripts": {
+    "build": "ts-node --project=./tsconfig.json tools/build-dist.ts"
   }
 }
