@@ -2,45 +2,34 @@
 
 TypeScript Linting libraries created and maintained by [3angleTech](www.3angle.tech).
 
+
 ## Installation
 
-```
-npm install @3angletech/tslint --save-dev
-```
+    npm install @3angletech/tslint --save-dev
+
 
 ## Usage
 
 This library contains linting rules for TypeScript, for Angular and for styling.
 
-To use the TypeScript rules you need to add in `tslint.json`
+To use the TypeScript rules, update `tslint.json` to include:
 
-```
-{
-  "extends": "@3angletech/tslint/ts"
-}
-```
+    {
+      "extends": [
+        "@3angletech/tslint/ts",
+        "@3angletech/tslint/angular"
+      ]
+    }
 
-or if you want to use both
+To use the StyleLint rules, update `.stylelintrc` to include:
 
-```
-{
-  "extends": [
-    "@3angletech/tslint/ts",
-    "@3angletech/tslint/angular",
-    "@3angletech/tslint/styles"
-  ]
-}
+    {
+      "extends": [
+        "@3angletech/tslint/styles"
+      ]
+    }
 
-```
+To publish a new version:
 
-## Development
-
-To distribute the library to npmjs:
-
-```bash
-$ npm publish --access public
-```
-
-## License
-
-Apache 2.0
+    npm run build
+    npm publish dist/
