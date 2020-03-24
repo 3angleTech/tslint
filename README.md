@@ -12,7 +12,7 @@ TypeScript Linting libraries created and maintained by [3angleTech](www.3angle.t
 
 This library contains linting rules for TypeScript, for Angular and for styling.
 
-To use the TypeScript rules, update `tslint.json` to include:
+To use the TypeScript rules, install required peer dependencies and update `tslint.json` to include:
 
     {
       "extends": [
@@ -21,7 +21,7 @@ To use the TypeScript rules, update `tslint.json` to include:
       ]
     }
 
-To use the StyleLint rules, update `.stylelintrc` to include:
+To use the StyleLint rules, install required peer dependencies and update `.stylelintrc` to include:
 
     {
       "extends": [
