@@ -1,6 +1,6 @@
 {
   "name": "@3angletech/tslint",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "author": "3AngleTech Team <contact@3angle.tech>",
   "description": "TSLint rules enforced by 3angleTech",
   "homepage": "https://github.com/3angleTech/tslint#readme",
