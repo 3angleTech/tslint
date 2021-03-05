@@ -5,7 +5,11 @@ TypeScript Linting libraries created and maintained by [3angleTech](www.3angle.t
 
 ## Installation
 
-    npm install @3angletech/tslint --save-dev
+    # For Angular v11 projects.
+    npm install @3angletech/tslint@2 --save-dev
+
+    # For Angular v10 or non-Angular projects.
+    npm install @3angletech/tslint@1 --save-dev
 
 
 ## Usage
