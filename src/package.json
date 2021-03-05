@@ -18,28 +18,14 @@
     "type": "git",
     "url": "https://github.com/3angleTech/tslint.git"
   },
-  "peerDependencies": {
-    "codelyzer": "^5.2.1",
-    "stylelint": "^13.2.1",
-    "stylelint-config-sass-guidelines": "^7.0.0",
+  "dependencies": {
+    "codelyzer": "^6.0.1",
+    "stylelint": "^13.11.0",
+    "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^20.0.0",
     "tslint": "^5.20.1",
     "tslint-microsoft-contrib": "^6.2.0",
     "tslint-sonarts": "^1.9.0",
     "typescript": "^3.7.5"
-  },
-  "peerDependenciesMeta": {
-    "codelyzer": {
-      "optional": true
-    },
-    "stylelint": {
-      "optional": true
-    },
-    "stylelint-config-sass-guidelines": {
-      "optional": true
-    },
-    "stylelint-config-standard": {
-      "optional": true
-    }
   }
 }
